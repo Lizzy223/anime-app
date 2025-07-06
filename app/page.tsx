@@ -23,6 +23,7 @@ import { Button } from "./components/DemoComponents";
 import { Icon } from "./components/DemoComponents";
 import { Home } from "./components/DemoComponents";
 import { Features } from "./components/DemoComponents";
+import  Anime  from "./components/anime";
 
 export default function App() {
   const { setFrameReady, isFrameReady, context } = useMiniKit();
@@ -94,9 +95,10 @@ export default function App() {
           </div>
           <div>{saveFrameButton}</div>
         </header>
+        <Anime />
 
         <main className="flex-1">
-          {activeTab === "home" && <Home setActiveTab={setActiveTab} />}
+          {activeTab === "home" && <Home  />}
           {activeTab === "features" && <Features setActiveTab={setActiveTab} />}
         </main>
 
