@@ -1,0 +1,20 @@
+{
+    "frame": {
+        "name": "anime app",
+        "version": "1",
+        "iconUrl": "https://https://anime-mini-app.vercel.app//icon.png",
+        "homeUrl": "https://https://anime-mini-app.vercel.app/",
+        "imageUrl": "https://https://anime-mini-app.vercel.app//image.png",
+        "splashImageUrl": "https://https://anime-mini-app.vercel.app//splash.png",
+        "splashBackgroundColor": "#00ba00",
+        "webhookUrl": "https://https://anime-mini-app.vercel.app//api/webhook",
+        "subtitle": "Are you an otaku?",
+        "description": "Are you an otaku?",
+        "primaryCategory": "games"
+    },
+    "accountAssociation": {
+        "header": "eyJmaWQiOjExMDg5NDksInR5cGUiOiJhdXRoIiwia2V5IjoiMHhlYTI2ZDcxNDBjZTQzOUJmNTYwZjIxRkJjNDdiNEM5NzU0QWNDMDc0In0",
+        "payload": "eyJkb21haW4iOiJhbmltZS1hcHAifQ",
+        "signature": "VDJeTUyVf6IIkRtLgsouAPXhifHuAAvhBxEViRdtlwEDgL39jXLpYIugs1zV7JjmmTybxxtZwwv02LRzoOQgMRs="
+    }
+}
