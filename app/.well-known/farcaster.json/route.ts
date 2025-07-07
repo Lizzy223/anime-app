@@ -16,9 +16,10 @@ export async function GET() {
 
   return Response.json({
     accountAssociation: {
-      header: process.env.FARCASTER_HEADER,
-      payload: process.env.FARCASTER_PAYLOAD,
-      signature: process.env.FARCASTER_SIGNATURE,
+      header: "eyJmaWQiOjExMDg5NDksInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg4YTZlYTdGMTk3NTFhMWNDMzQwRmMyOGJENkEwQzNERDY5OTU1MDgxIn0",
+      payload: "eyJkb21haW4iOiJhbmltZS1taW5pLWFwcC52ZXJjZWwuYXBwIn0",
+      signature: "MHg5MWYzN2M1ZmUxZTQ4MDgyY2FjOGNmZjY4OWE1NDVjYjlhNzVkY2MwZTQ4N2NmMzY0ODkwMzhiOTBhNGJjZWIyM2Y5YTU0OGYxNWJkYzMxMWYxZWU3M2M5YzMzMGE2N2QzMjI4NzUzZTVjMjdjNjE0OGZjODZiMTI1NGY3NWE5YTFi"
+
     },
     frame: withValidProperties({
       name: "anime app",
