@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-
+import "./anime.css";
 // Main App Component - Simulates a Next.js page
 export default function Anime() {
     // Game state management: 'menu', 'playing', 'gameover'
@@ -263,7 +263,7 @@ export default function Anime() {
                     {renderContent()}
                 </main>
                 <footer className="text-center mt-6 text-slate-500 text-sm">
-                    <p>Powered by the Jikan API. Game developed by Gemini.</p>
+                    <p>Game developed by writemess.</p>
                 </footer>
             </div>
         </div>
@@ -378,16 +378,4 @@ const LoadingSpinner = () => (
     </div>
 );
 
-// Add some keyframes for animations
-const style = document.createElement('style');
-style.innerHTML = `
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-    @keyframes fade-in {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
-    .animate-fade-in {
-        animation: fade-in 0.5s ease-out forwards;
-    }
-`;
-document.head.appendChild(style);
+
