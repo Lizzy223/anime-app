@@ -320,7 +320,8 @@ const GamePlay = ({ level, score, timeLeft, loading, questions, currentQuestionI
                     <>
                         <h3 className="text-xl md:text-2xl font-semibold mb-4 text-slate-300">Who is this character?</h3>
                         <div className="flex justify-center items-center h-64 mb-4">
-                            <img src={currentQuestion.image} alt="Character" className="max-h-full max-w-full object-contain rounded-lg shadow-md" />
+                            {/* // eslint-disable-next-line @next/next/no-img-element */}
+                            <img src={currentQuestion.image} raw={currentQuestion.image} alt="Character" className="max-h-full max-w-full object-contain rounded-lg shadow-md" />
                         </div>
                     </>
                 ) : (
